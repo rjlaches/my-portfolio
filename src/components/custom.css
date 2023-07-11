@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+h1,h2 {
+    font-family: Roboto;
+}
+p {
+    font-family: Roboto;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 2px 4px 8px black;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+}
+nav {
+    font-family: Roboto;
+}
+ul {
+    margin-left: 25%;
+    margin-right: 35%;
+    width: 100%;
+}
+li {
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+li a {
+    width: 200%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+
+}
+
+a:hover {
+    color: white!important;
+    transition: ease-in-out 0.25s;
+}
+.banner {
+    margin-top: 5%;
+}
+
+.banner h1 {
+    font-size: 72px;
+    text-shadow: 2px 2px 8px black;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.banner h1:hover {
+    text-shadow: 8px 4px 8px rgb(255, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.banner h2 {
+    font-size: 36px;
+    text-shadow: 2px 20px 4px black;
+    color: rgb(0, 0, 0);
+    transition: 0.25s ease-in-out;
+}
+.banner h2:hover {
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.main {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+#bannerImage {
+    width: 25%;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 100%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+    transition: 0.5s ease;
+}
+
+#bannerImage:hover {
+    transform:scale(110%);
+}
+
+.Skill-Container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 25%;
+    margin-left: 50%;
+    margin-top: 5%;
+    padding-left: 2rem;
+    border: 4px outset black;
+}
+.listItem {
+    width:  6.25rem;
+    height:  6.25rem;
+    transition: 0.25s ease;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.listItem:hover {
+    transform:scale(150%);
+    box-shadow: 4px 4px 4px black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    border: 2px solid black;
+}
+#JS_img {
+    width: 12.5rem;
+    height: 6.25rem;
+}
+#React_img {
+    width: 12.5rem;
+    height: 6.25rem;
+}
+#Figma_img {
+    width: 12.5rem;
+    height: 6.25rem;
+}
+
+
+.Work-Container {
+    display: inline;
+    width: 50%;
+    margin-left: 5%;
+    padding: 2rem;
+    
+}
+
+.Work-Container h1, h2 {
+    margin-left: 1%;
+    padding: 1rem 1rem;
+}
+
+.workItem {
+    width: 50%;
+    padding: 10px;
+    border: 4px outset black;
+}
+
+.workItem:hover {
+    border: 4px inset black;
+}
+
+#family_img {
+    float: right;
+}
+
+.Work-Container p {
+    width: 50%;
+}
+
+#katsInfo {
+    float: right;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+#famInfo {
+    font-size: 2rem;
+    margin-right: 1%;
+    padding: 1rem 1rem;
+}
+
+#katsTitle {
+    margin: auto;
+}
+.Work-Container h2 {
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.fa{
+    margin-bottom: 2.5%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.footer-icons {
+    margin-left:25%;
+    margin-right: 25%;
+}
+
+  footer {
+    margin-top: 15%;
+    background-color:#212529;
+    color: #f8f9fa;
+}
+  footer a {
+    color:#6c757d;
+    transition: all 0.25s ease-in-out;
+    margin-left: 25%;
+  }
+  
+  footer a:hover{
+    color: #ced4da;
+    transform: scale(1.5);
+  }
+
+footer h2 {
+    text-align: center;
+}
+
+.Work-Container h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.5s ease-in;
+}
+.Work-Container h1:hover {
+    text-shadow: 8px 4px 8px rgb(255, 0, 0);
+}
+
+.main h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.5s ease-in;
+
+}
+.main h1:hover {
+    text-shadow: 8px 4px 8px rgb(255, 0, 0);
+}
+
+#katsTitle {
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.25s ease-in;
+}
+
+#katsTitle:hover {
+    text-shadow: 8px 10px 8px rgb(0, 38, 255);
+}
+#famTitle {
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.25s ease-in;
+}
+
+#famTitle:hover {
+    text-shadow: 8px 10px 8px rgb(0, 38, 255);
+}
